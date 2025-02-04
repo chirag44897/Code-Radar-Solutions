@@ -1,18 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, num3;
-    float average;
-
-    // Input three integers
-    printf("Enter three integers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
-
+    int a, b, c;
+    float avg;
+    
+    // Read three integers
+    scanf("%d %d %d", &a, &b, &c);
+    
     // Calculate the average
-    average = (num1 + num2 + num3) / 3.0;
-
+    avg = (a + b + c) / 3.0;
+    
     // Print the average
-    printf("Average: %.2f\n", average);
+    printf("%.2f", avg);
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
