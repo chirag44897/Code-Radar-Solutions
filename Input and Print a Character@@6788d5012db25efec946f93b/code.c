@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    char ch;
+    scanf(" %c", &ch);  // The space before %c helps ignore any whitespace
+    printf("You entered: %c\n", ch);
     return 0;
 }
