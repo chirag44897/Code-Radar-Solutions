@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    scanf(" %c", &ch);  // The space before %c helps ignore any whitespace
+    scanf(" %c", &ch);  // Space before %c ensures it ignores any leftover newline
     printf("You entered: %c\n", ch);
     return 0;
 }
