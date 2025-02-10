@@ -1,19 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, num3;
-    float average;
-
-    // Taking input
-    printf("Enter three integers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
-
-    // Calculating average
-    average = (num1 + num2 + num3) / 3.0;
-
-    // Printing the result
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    
+    double average = (a + b + c) / 3.0;
     printf("Average: %.2f\n", average);
-
+    
     return 0;
 }
 
