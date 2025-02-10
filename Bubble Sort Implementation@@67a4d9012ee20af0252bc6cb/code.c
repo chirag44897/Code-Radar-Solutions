@@ -12,23 +12,3 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-
-    // Reading array elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    bubbleSort(arr, n);
-
-    // Output the sorted array
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-
-    return 0;
-}
