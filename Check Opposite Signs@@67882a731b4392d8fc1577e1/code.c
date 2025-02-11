@@ -3,15 +3,15 @@
 int main() {
     int a, b;
 
-    // Input two integers
+    // Prompting the user to enter two integers
     printf("Enter two integers: ");
     scanf("%d %d", &a, &b);
 
-    // Check for opposite signs using bitwise XOR
+    // Check if the integers have opposite signs
     if ((a ^ b) < 0) {
-        printf("True\n");  // Opposite signs
+        printf("True\n");  // Output True if they have opposite signs
     } else {
-        printf("False\n"); // Same signs
+        printf("False\n"); // Output False if they have the same signs
     }
 
     return 0;
